@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行时生成的数据(勿上传)
+chroma_db/
+logs/
+md5.txt
+
+# 敏感配置
+.env
+*.env
+
+# 系统/IDE
+.DS_Store
+.idea/
+.vscode/
