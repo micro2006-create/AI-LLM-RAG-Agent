@@ -28,7 +28,7 @@
 
 系统启动后的智能客服界面：
 
-![初始页面](images/01_initial.png)
+![初始页面](https://cdn.jsdelivr.net/gh/micro2006-create/AI-LLM-RAG-Agent@main/portfolio/images/01_initial.png)
 
 ### 2. 测试问题一：故障排除（RAG 检索）
 
@@ -36,7 +36,7 @@
 
 **系统行为**：Agent 自主调用 `rag_summarize` 工具，从 Chroma 向量库中检索 top-3 相关知识片段（k=3），基于检索结果生成故障排除步骤。
 
-![故障排除问答](images/02_question_troubleshoot.png)
+![故障排除问答](https://cdn.jsdelivr.net/gh/micro2006-create/AI-LLM-RAG-Agent@main/portfolio/images/02_question_troubleshoot.png)
 
 ### 3. 测试问题二：天气查询（工具调用）
 
@@ -44,7 +44,7 @@
 
 **系统行为**：Agent 自主调用 `get_weather` 工具查询北京天气，返回天气信息并组织自然语言回复。
 
-![天气查询问答](images/03_question_weather.png)
+![天气查询问答](https://cdn.jsdelivr.net/gh/micro2006-create/AI-LLM-RAG-Agent@main/portfolio/images/03_question_weather.png)
 
 ### 4. 测试问题三：月度效率报告（多步工具链 + 动态 Prompt 切换）
 
@@ -52,7 +52,7 @@
 
 **系统行为**：Agent 链式调用 `get_user_id` → `get_current_month` → `fetch_external_data`，中间件 `report_prompt_switch` 检测到报告生成场景，自动切换到报告生成 Prompt，最终输出结构化月度效率报告。
 
-![月度效率报告问答](images/04_question_report.png)
+![月度效率报告问答](https://cdn.jsdelivr.net/gh/micro2006-create/AI-LLM-RAG-Agent@main/portfolio/images/04_question_report.png)
 
 ## 技术架构
 
